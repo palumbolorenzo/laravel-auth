@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,7 +20,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'Admin\HomeController@index')->name('home');
+//Route::get('/home', 'Admin\HomeController@index')->name('home');
 
 
 Route::middleware('auth')
@@ -29,4 +30,5 @@ Route::middleware('auth')
     ->group(function (){
         Route::get('/home', 'HomeController@index')
         ->name('home');
+        Route::resource('posts', 'PostController');
    });
