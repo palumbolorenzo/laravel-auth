@@ -28,6 +28,11 @@ class UserSeeder extends Seeder
                 'name'      => 'zxcv',
                 'email'     => 'zxcv@gmail.com',
                 'password'  => Hash::make('zxcv')
+            ],
+            [
+                'name'      => 'Lorenzo',
+                'email'     => 'palumbolorenzo97@gmail.com',
+                'password'  => Hash::make('12345678')
             ]
         ];
 
