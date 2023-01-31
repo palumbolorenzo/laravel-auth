@@ -17,7 +17,7 @@ class PostController extends Controller
     {
         $posts = Post::paginate(5);
 
-        $posts->dd();
+        // $posts->dd();
 
         return view('admin.posts.index', [
             'posts' => $posts,

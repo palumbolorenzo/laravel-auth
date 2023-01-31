@@ -14,8 +14,6 @@
                     <th scope="col">ID</th>
                     <th scope="col">Slug</th>
                     <th scope="col">Titolo</th>
-                    <th scope="col">Categoria</th>
-                    <th scope="col">Tags</th>
                     <th scope="col">Azioni</th>
                 </tr>
             </thead>

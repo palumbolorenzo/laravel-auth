@@ -25,15 +25,10 @@ class UserSeeder extends Seeder
                 'password'  => Hash::make('qwer')
             ],
             [
-                'name'      => 'zxcv',
-                'email'     => 'zxcv@gmail.com',
-                'password'  => Hash::make('zxcv')
-            ],
-            [
                 'name'      => 'Lorenzo',
                 'email'     => 'palumbolorenzo97@gmail.com',
                 'password'  => Hash::make('12345678')
-            ]
+            ],
         ];
 
         foreach ($users as $user) {
